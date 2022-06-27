@@ -1,2 +1,3 @@
 # CaptBlaster
  
+An unity project made to remember how the engine works...
