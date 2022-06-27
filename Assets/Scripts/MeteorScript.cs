@@ -1,0 +1,17 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class MeteorScript : MonoBehaviour
+{
+    public float speed = -2f;
+
+    Rigidbody2D rigidBody;
+
+    void Start()
+    {
+        rigidBody = GetComponent<Rigidbody2D>();
+        rigidBody.velocity = new Vector2(0, speed);
+    }
+
+}
